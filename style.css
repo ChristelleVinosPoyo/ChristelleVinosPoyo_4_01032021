@@ -902,6 +902,9 @@ h4 {
 }
 
 @media (max-width: 991px) {
+    .portfolio-thumb{
+        margin: auto;     /* pour centrer les photos du portfolio en version mobile */
+    }
     .container {
         width: 100%;
     }
