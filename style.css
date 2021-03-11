@@ -17,11 +17,26 @@ button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    border: rgb(0, 174, 255) solid 1px;
+    border-radius: 5px;
 }
+a:focus{
+    border: rgb(0, 174, 255) solid 1px;
+    border-radius: 5px;
+
+}
+input:hover, textarea:hover, button:hover{
+    border: rgb(0, 174, 255) solid 1px;
+    border-radius: 5px;
+}
+input:focus, textarea:focus, button:focus{
+    border: rgb(0, 174, 255) solid 1px;
+    border-radius: 5px;
+}
+
 
 #page-loading-blocs-notifaction {
     position: fixed;
