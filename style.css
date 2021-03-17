@@ -36,7 +36,9 @@ input:focus, textarea:focus, button:focus{
     border: rgb(0, 174, 255) solid 1px;
     border-radius: 5px;
 }
-
+.coordonnees{
+    font-size: medium;
+}
 
 #page-loading-blocs-notifaction {
     position: fixed;
